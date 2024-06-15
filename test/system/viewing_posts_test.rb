@@ -6,6 +6,6 @@ class ViewingPostsTest < ApplicationSystemTestCase
 
     visit "/"
 
-    assert_selector "h1", text: "Hello World"
+    assert_text "Hello World"
   end
 end
