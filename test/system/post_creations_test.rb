@@ -8,6 +8,6 @@ class PostCreationsTest < ApplicationSystemTestCase
 
      click_on "Create Post"
 
-     assert_text "title can't be blank"
+     assert_text "Title can't be blank"
    end
 end
